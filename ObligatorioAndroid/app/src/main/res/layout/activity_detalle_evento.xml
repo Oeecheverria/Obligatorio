@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Evento.DetalleEventoActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Detalles del evento "
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"/>
+
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:padding="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@id/tvTitulo"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:layout_alignBaseline="@id/tvTitulo"
+        android:id="@+id/llDetalleEvento">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTituloEvento"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTipo"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFecha"
+            android:layout_marginTop="6dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDuracion"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAsistentes"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvIdCliente"
+            android:layout_marginTop="6dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gestion de Gastos"
+            android:id="@+id/btnGasto"
+            android:onClick="gestionGastos"
+            android:layout_marginTop="300dp"
+            android:layout_alignBaseline="@id/llDetalleEvento" android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gestion de Reuniones"
+            android:onClick="gestionReuniones"
+            android:id="@+id/btnReuniones"
+            android:layout_alignBaseline="@id/btnGasto" android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gestion de Tareas"
+            android:onClick="gestionTareas"
+            android:id="@+id/btnTareas"
+            android:layout_alignBaseline="@id/btnReuniones" android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+
+
+        
+
+</RelativeLayout>

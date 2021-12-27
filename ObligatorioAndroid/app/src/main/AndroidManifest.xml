@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.obligatorioandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Agencia de Eventos"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ObligatorioAndroid">
+        <activity
+            android:name=".ClientesFragment"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Cliente.DetalleClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Cliente.ClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Tareas.EditarTareaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Tareas.TareaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Reunion.EditarReunionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Reunion.ReunionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Gastos.EditarGastoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Gastos.GastosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Evento.EditarEventoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Evento.DetalleEventoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

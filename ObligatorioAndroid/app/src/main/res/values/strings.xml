@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Obligatorio Android</string>
+    <string-array name="clientes">
+        <item>Particular</item>
+        <item>Comercial</item>
+    </string-array>
+    <string-array name="eventos">
+        <item>Familiar</item>
+        <item>Deportivo</item>
+        <item>Empresarial</item>
+        <item>Social</item>
+        <item>Politico</item>
+    </string-array>
+</resources>

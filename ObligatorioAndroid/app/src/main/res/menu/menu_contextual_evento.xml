@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mniModificar"
+        android:title="Modificar" />
+
+    <item
+        android:id="@+id/mniEliminar"
+        android:title="Eliminar" />
+
+    <item
+        android:id="@+id/mniEventos"
+        android:title="Eventos"
+        app:showAsAction="always" />
+    />
+
+    <item
+        android:id="@+id/mniClientes"
+        android:title="Clientes"
+        app:showAsAction="always" />
+    />
+
+</menu>

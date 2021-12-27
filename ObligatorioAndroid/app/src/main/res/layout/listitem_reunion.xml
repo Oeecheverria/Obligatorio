@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescripcionReunion"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="Descripcion: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvObjetivo"
+        android:textSize="12dp"
+        android:text="Objetivo: "
+        android:textStyle="italic"
+        android:layout_below="@id/tvDescripcionReunion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFechaReunion"
+        android:textSize="12dp"
+        android:text="Fecha: "
+        android:layout_below="@id/tvObjetivo"/>
+
+</RelativeLayout>
